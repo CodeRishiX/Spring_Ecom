@@ -1,0 +1,959 @@
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c3b7c5d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c3b7c5d: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m7s554ms238µs300ns).
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=9/10, idle=9/10, active=0, waiting=0)
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (9f0c130c-0931-4e8d-a75b-fc98b1e2216c)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f922751 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4f922751: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2fbdd81e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2fbdd81e: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@650c86d9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@650c86d9: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d067666 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3d067666: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@713f8eb4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@713f8eb4: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7e170dec (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7e170dec: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24318ce2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@24318ce2: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@cf1aa00 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@cf1aa00: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@eaf2d6a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-08 01:02:21 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@eaf2d6a: (connection is dead)
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (9f0c130c-0931-4e8d-a75b-fc98b1e2216c): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: No such host is known (sql5.freesqldatabase.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (7193d602-7e02-485c-8639-a535e4e4e5ed)
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (7193d602-7e02-485c-8639-a535e4e4e5ed): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (373a4568-d3ca-4c7a-970e-066519baf349)
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (373a4568-d3ca-4c7a-970e-066519baf349): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (4652b234-0516-46a5-b0b8-1f62123fc989)
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (4652b234-0516-46a5-b0b8-1f62123fc989): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (4f8daf3b-4b0d-4a75-a250-3f9acfa6497a)
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (4f8daf3b-4b0d-4a75-a250-3f9acfa6497a): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (6a32257d-0528-414f-b392-3a623a63f79b)
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (6a32257d-0528-414f-b392-3a623a63f79b): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (d992485b-043f-4249-85d3-044132038f1d)
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (d992485b-043f-4249-85d3-044132038f1d): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:22 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (38bdedf6-2e5f-46a5-8a28-467cc6f5ff66)
+2025-07-08 01:02:22 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (38bdedf6-2e5f-46a5-8a28-467cc6f5ff66): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:22 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:23 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (a0660a0a-fb51-466d-81b7-8b60c468d92c)
+2025-07-08 01:02:23 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (a0660a0a-fb51-466d-81b7-8b60c468d92c): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:23 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:26 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (34d01047-d01f-4e96-b084-e1ebdcef8d37)
+2025-07-08 01:02:26 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (34d01047-d01f-4e96-b084-e1ebdcef8d37): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:26 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:31 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (c4e3b886-536f-436c-a90f-9967873c661b)
+2025-07-08 01:02:31 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (c4e3b886-536f-436c-a90f-9967873c661b): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:31 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: No such host is known (sql5.freesqldatabase.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:36 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (eb46834f-799d-4101-8466-c4f556753a23)
+2025-07-08 01:02:36 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (eb46834f-799d-4101-8466-c4f556753a23): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:36 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:41 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (50d62689-aed0-4337-b8c0-c3590c747d8c)
+2025-07-08 01:02:41 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (50d62689-aed0-4337-b8c0-c3590c747d8c): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:41 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: No such host is known (sql5.freesqldatabase.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:46 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (f86a29af-a8de-41da-9305-4e7c1a247a68)
+2025-07-08 01:02:46 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (f86a29af-a8de-41da-9305-4e7c1a247a68): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:46 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=0/10, idle=0/10, active=0, waiting=0)
+2025-07-08 01:02:51 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (6f2109c7-4246-4a27-b3a4-8fbce0322c1a)
+2025-07-08 01:02:51 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (6f2109c7-4246-4a27-b3a4-8fbce0322c1a): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:51 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: No such host is known (sql5.freesqldatabase.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:02:56 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (07d7ea1c-920d-4bcf-af7c-8e365d4d2d56)
+2025-07-08 01:02:56 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection (07d7ea1c-920d-4bcf-af7c-8e365d4d2d56): Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-07-08 01:02:56 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:747)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 common frames omitted
+Caused by: java.net.UnknownHostException: sql5.freesqldatabase.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 16 common frames omitted
+2025-07-08 01:03:01 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (e02c38b1-83c1-4e61-a978-6d9b10761562)
+2025-07-08 01:03:08 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (e02c38b1-83c1-4e61-a978-6d9b10761562)
+2025-07-08 01:03:08 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9
+2025-07-08 01:03:08 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (31041758-5823-4f98-8649-d130229e50fd)
+2025-07-08 01:03:11 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (31041758-5823-4f98-8649-d130229e50fd)
+2025-07-08 01:03:11 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24853c17
+2025-07-08 01:03:11 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2/10, idle=2/10, active=0, waiting=0)
+2025-07-08 01:03:11 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (e89c452b-42bb-41fd-a987-cafafc2f5c8f)
+2025-07-08 01:03:14 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (e89c452b-42bb-41fd-a987-cafafc2f5c8f)
+2025-07-08 01:03:14 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e39a56b
+2025-07-08 01:03:14 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (a4727eca-5669-432a-9d3c-d89744cebeb4)
+2025-07-08 01:03:16 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (a4727eca-5669-432a-9d3c-d89744cebeb4)
+2025-07-08 01:03:16 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3
+2025-07-08 01:03:16 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (5e3da956-6224-4b39-8da1-ec3fec7b2d36)
+2025-07-08 01:03:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (5e3da956-6224-4b39-8da1-ec3fec7b2d36)
+2025-07-08 01:03:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54824de3
+2025-07-08 01:03:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=5/10, idle=5/10, active=0, waiting=0)
+2025-07-08 01:03:21 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (3b1a4b53-43b0-4860-87b7-47cc7a0628d9)
+2025-07-08 01:03:25 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (3b1a4b53-43b0-4860-87b7-47cc7a0628d9)
+2025-07-08 01:03:25 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c
+2025-07-08 01:03:25 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (133bf63a-521b-4f63-9e16-64bc2a91fcd8)
+2025-07-08 01:03:29 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (133bf63a-521b-4f63-9e16-64bc2a91fcd8)
+2025-07-08 01:03:29 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@521c1136
+2025-07-08 01:03:29 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (4206b20e-d893-4030-bf8b-dbdb15af8c76)
+2025-07-08 01:03:33 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (4206b20e-d893-4030-bf8b-dbdb15af8c76)
+2025-07-08 01:03:33 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c033683
+2025-07-08 01:03:33 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (2b9e9921-8f91-4a38-8d63-d4c3f6b937e5)
+2025-07-08 01:03:37 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (2b9e9921-8f91-4a38-8d63-d4c3f6b937e5)
+2025-07-08 01:03:37 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1
+2025-07-08 01:03:38 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (359d5076-4303-44de-98c5-d1b534030de8)
+2025-07-08 01:03:42 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (359d5076-4303-44de-98c5-d1b534030de8)
+2025-07-08 01:03:42 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10
+2025-07-08 01:03:42 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:03:42 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:03:42 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:03:42 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:03:42 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:03:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:03:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:04:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:04:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:04:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:04:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:05:00 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3 is alive
+2025-07-08 01:05:01 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9 is alive
+2025-07-08 01:05:11 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@24853c17 is alive
+2025-07-08 01:05:12 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c is alive
+2025-07-08 01:05:14 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@e39a56b is alive
+2025-07-08 01:05:14 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@54824de3 is alive
+2025-07-08 01:05:14 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@521c1136 is alive
+2025-07-08 01:05:20 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@7c033683 is alive
+2025-07-08 01:05:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:05:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:05:24 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10 is alive
+2025-07-08 01:05:26 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1 is alive
+2025-07-08 01:05:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:05:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:06:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:06:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:06:43 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3 is alive
+2025-07-08 01:06:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:06:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:06:54 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9 is alive
+2025-07-08 01:06:58 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c is alive
+2025-07-08 01:06:59 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@521c1136 is alive
+2025-07-08 01:07:06 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10 is alive
+2025-07-08 01:07:07 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@54824de3 is alive
+2025-07-08 01:07:07 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@7c033683 is alive
+2025-07-08 01:07:11 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@24853c17 is alive
+2025-07-08 01:07:13 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@e39a56b is alive
+2025-07-08 01:07:14 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1 is alive
+2025-07-08 01:07:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:07:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:07:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:07:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:08:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:08:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:08:27 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3 is alive
+2025-07-08 01:08:43 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@521c1136 is alive
+2025-07-08 01:08:45 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c is alive
+2025-07-08 01:08:48 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9 is alive
+2025-07-08 01:08:49 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10 is alive
+2025-07-08 01:08:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:08:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:08:54 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@7c033683 is alive
+2025-07-08 01:09:00 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@54824de3 is alive
+2025-07-08 01:09:02 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1 is alive
+2025-07-08 01:09:11 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@24853c17 is alive
+2025-07-08 01:09:13 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@e39a56b is alive
+2025-07-08 01:09:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:09:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:09:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:09:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:10:11 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3 is alive
+2025-07-08 01:10:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:10:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:10:28 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@521c1136 is alive
+2025-07-08 01:10:31 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10 is alive
+2025-07-08 01:10:32 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c is alive
+2025-07-08 01:10:41 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9 is alive
+2025-07-08 01:10:41 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@7c033683 is alive
+2025-07-08 01:10:50 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1 is alive
+2025-07-08 01:10:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:10:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:10:53 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@54824de3 is alive
+2025-07-08 01:11:11 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@24853c17 is alive
+2025-07-08 01:11:12 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@e39a56b is alive
+2025-07-08 01:11:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:11:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:11:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:11:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:11:54 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3 is alive
+2025-07-08 01:12:12 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@521c1136 is alive
+2025-07-08 01:12:13 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10 is alive
+2025-07-08 01:12:19 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c is alive
+2025-07-08 01:12:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:12:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:12:28 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@7c033683 is alive
+2025-07-08 01:12:34 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9 is alive
+2025-07-08 01:12:39 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1 is alive
+2025-07-08 01:12:46 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@54824de3 is alive
+2025-07-08 01:12:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:12:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:13:11 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@24853c17 is alive
+2025-07-08 01:13:12 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@e39a56b is alive
+2025-07-08 01:13:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:13:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:13:38 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3 is alive
+2025-07-08 01:13:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:13:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:13:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10 is alive
+2025-07-08 01:13:57 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@521c1136 is alive
+2025-07-08 01:14:06 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c is alive
+2025-07-08 01:14:15 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@7c033683 is alive
+2025-07-08 01:14:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:14:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:14:27 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1 is alive
+2025-07-08 01:14:28 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9 is alive
+2025-07-08 01:14:39 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@54824de3 is alive
+2025-07-08 01:14:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:14:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:15:11 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@e39a56b is alive
+2025-07-08 01:15:11 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@24853c17 is alive
+2025-07-08 01:15:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:15:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:15:22 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3 is alive
+2025-07-08 01:15:38 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10 is alive
+2025-07-08 01:15:41 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@521c1136 is alive
+2025-07-08 01:15:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:15:51 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:15:52 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c is alive
+2025-07-08 01:16:02 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@7c033683 is alive
+2025-07-08 01:16:15 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1 is alive
+2025-07-08 01:16:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9 is alive
+2025-07-08 01:16:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:16:21 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-07-08 01:16:25 [SIGINT handler] DEBUG java.lang.Runtime - Runtime.exit() called with status: 130
+java.lang.Throwable: Runtime.exit(130)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Terminator$1.handle(Terminator.java:51)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-08 01:16:25 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 01:16:25 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-08 01:16:27 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 01:16:27 [SpringApplicationShutdownHook] DEBUG o.h.internal.SessionFactoryImpl - HHH000031: Closing
+2025-07-08 01:16:27 [SpringApplicationShutdownHook] DEBUG o.h.type.spi.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@a22cf82] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@2dfd2dba]
+2025-07-08 01:16:27 [SpringApplicationShutdownHook] DEBUG o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2025-07-08 01:16:27 [SpringApplicationShutdownHook] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2025-07-08 01:16:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-08 01:16:28 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33a92fe9: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@24853c17: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e39a56b: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4bc95db3: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54824de3: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e6a378c: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@521c1136: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c033683: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6762e3b1: (connection evicted)
+2025-07-08 01:16:28 [HikariPool-1:connection-closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64c51c10: (connection evicted)
+2025-07-08 01:16:28 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  shutdown stats (total=0/10, idle=0/10, active=0, waiting=0)
+2025-07-08 01:16:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
