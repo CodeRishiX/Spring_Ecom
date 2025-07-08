@@ -184,7 +184,7 @@
                                         <i class="bi bi-person-fill"></i> USER
                                     </span>
                                 </div>
-                                <a href="http://localhost:8080/logout" class="text-white-50" style="font-size: 0.8rem; text-decoration: none;">Logout</a>
+                                <a href="https://springcart.onrender.com/logout" class="text-white-50" style="font-size: 0.8rem; text-decoration: none;">Logout</a>
                             </div>
                         </div>
                     </div>
@@ -311,7 +311,7 @@
                             col.innerHTML = `
                                 <div class="card h-100">
                                     <!-- Product image-->
-                                    <img class="card-img-top" src="http://localhost:8080/api/product/${p.id}/image" alt="${p.name}" onerror="this.src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg'">
+                                    <img class="card-img-top" src="https://springcart.onrender.com/api/product/${p.id}/image" alt="${p.name}" onerror="this.src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg'">
                                     <!-- Product details-->
                                     <div class="card-body p-4">
                                         <div class="text-center">
@@ -339,16 +339,16 @@
             }
 
             // Initial load of all products
-            fetchProducts('http://localhost:8080/api/products');
+            fetchProducts('https://springcart.onrender.com/api/products');
 
             // Search form submission
             searchForm.addEventListener('submit', (e) => {
                 e.preventDefault();
                 const query = searchInput.value.trim();
                 if (query) {
-                    fetchProducts(`http://localhost:8080/api/products/search?keyword=${encodeURIComponent(query)}`);
+                    fetchProducts(`https://springcart.onrender.com/api/products/search?keyword=${encodeURIComponent(query)}`);
                 } else {
-                    fetchProducts('http://localhost:8080/api/products');
+                    fetchProducts('https://springcart.onrender.com/api/products');
                 }
             });
 
@@ -356,9 +356,9 @@
             searchInput.addEventListener('input', () => {
                 const query = searchInput.value.trim();
                 if (query) {
-                    fetchProducts(`http://localhost:8080/api/products/search?keyword=${encodeURIComponent(query)}`);
+                    fetchProducts(`https://springcart.onrender.com/api/products/search?keyword=${encodeURIComponent(query)}`);
                 } else {
-                    fetchProducts('http://localhost:8080/api/products');
+                    fetchProducts('https://springcart.onrender.com/api/products');
                 }
             });
         });
@@ -373,7 +373,7 @@
         const adminBadge = document.getElementById('adminBadge');
 
         // Check login status
-        fetch('http://localhost:8080/api/auth/status', {
+        fetch('https://springcart.onrender.com/api/auth/status', {
             credentials: 'include'
         })
         .then(response => response.json())
@@ -385,7 +385,7 @@
                 userName.textContent = data.name;
 
                 // Check if user is admin
-                fetch('http://localhost:8080/api/user/role', {
+                fetch('https://springcart.onrender.com/api/user/role', {
                     credentials: 'include',
                     headers: {
                         "Accept": "text/plain"
@@ -457,7 +457,7 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Fetch cart count and update badge
-        fetch('http://localhost:8080/api/cart', { credentials: 'include' })
+        fetch('https://springcart.onrender.com/api/cart', { credentials: 'include' })
             .then(res => {
                 if (!res.ok) return [];
                 return res.json();
@@ -478,7 +478,7 @@
     document.addEventListener('DOMContentLoaded', function() {
         const addProductLink = document.querySelector('li.nav-item a[href="add-product.html"]');
         if (!addProductLink) return;
-        fetch('http://localhost:8080/api/user/role', { credentials: 'include' })
+        fetch('https://springcart.onrender.com/api/user/role', { credentials: 'include' })
             .then(res => {
                 if (!res.ok) throw new Error('Unauthorized');
                 return res.json();
@@ -499,7 +499,7 @@
     <!-- Admin Role Button Visibility Script (Unified, expects plain text) -->
     <script>
     window.addEventListener("DOMContentLoaded", () => {
-      fetch("http://localhost:8080/api/user/role", { credentials: "include" })
+      fetch("https://springcart.onrender.com/api/user/role", { credentials: "include" })
         .then(res => res.text())
         .then(role => {
           const isAdmin = role === "ROLE_ADMIN";
@@ -530,7 +530,7 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            fetch("http://localhost:8080/api/user/role", { credentials: "include" })
+            fetch("https://springcart.onrender.com/api/user/role", { credentials: "include" })
                 .then(res => res.text())
                 .then(role => {
                     const isAdmin = role === "ROLE_ADMIN";
@@ -564,7 +564,7 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Fetch user role
-        fetch('http://localhost:8080/api/user/role', {
+        fetch('https://springcart.onrender.com/api/user/role', {
             credentials: 'include',
             headers: {
                 "Accept": "text/plain"
