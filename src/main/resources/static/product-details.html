@@ -171,7 +171,7 @@
                                             <i class="bi bi-person-fill"></i> USER
                                         </span>
                                     </div>
-                                    <a href="http://localhost:8080/logout" class="text-white-50" style="font-size: 0.8rem; text-decoration: none;">Logout</a>
+                                    <a href="https://springcart.onrender.com/logout" class="text-white-50" style="font-size: 0.8rem; text-decoration: none;">Logout</a>
                                 </div>
                             </div>
                         </div>
@@ -270,7 +270,7 @@
         const adminBadge = document.getElementById('adminBadge');
 
         // Check login status
-        fetch('http://localhost:8080/api/auth/status', {
+        fetch('https://springcart.onrender.com/api/auth/status', {
             credentials: 'include'
         })
         .then(response => response.json())
@@ -289,7 +289,7 @@
                 userName.textContent = data.name;
 
                 // Check if user is admin
-                fetch('http://localhost:8080/api/user/role', {
+                fetch('https://springcart.onrender.com/api/user/role', {
                     credentials: 'include',
                     headers: {
                         "Accept": "text/plain"
@@ -365,7 +365,7 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Fetch cart count and update badge
-        fetch('http://localhost:8080/api/cart', { credentials: 'include' })
+        fetch('https://springcart.onrender.com/api/cart', { credentials: 'include' })
             .then(res => {
                 if (!res.ok) return [];
                 return res.json();
@@ -406,7 +406,7 @@
 
             if (productId) {
                 // Fixed: Changed the endpoint URL to match the ProductController endpoint
-                fetch(`http://localhost:8080/api/productdetails/${productId}`, {
+                fetch(`https://springcart.onrender.com/api/productdetails/${productId}`, {
                     credentials: 'include'
                 })
                 .then(res => {
@@ -424,7 +424,7 @@
 
                     // Set product image with error handling
                     const productImage = document.getElementById('productImage');
-                    productImage.src = `http://localhost:8080/api/product/${product.id}/image`;
+                    productImage.src = `https://springcart.onrender.com/api/product/${product.id}/image`;
                     productImage.alt = product.name;
                     productImage.onerror = function() {
                         this.src = 'https://dummyimage.com/600x700/dee2e6/6c757d.jpg';
@@ -448,7 +448,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Fetch user role
-            fetch("http://localhost:8080/api/user/role", {
+            fetch("https://springcart.onrender.com/api/user/role", {
                 credentials: "include",
                 headers: {
                     "Accept": "text/plain"
@@ -479,7 +479,7 @@
         document.querySelector('.btn-primary.flex-shrink-0').addEventListener('click', async () => {
             // First check if user is authenticated
             try {
-                const authResponse = await fetch('http://localhost:8080/api/auth/status', {
+                const authResponse = await fetch('https://springcart.onrender.com/api/auth/status', {
                     credentials: 'include'
                 });
                 const authData = await authResponse.json();
@@ -494,7 +494,7 @@
                 const productId = new URLSearchParams(window.location.search).get('id');
                 const quantity = parseInt(document.getElementById('inputQuantity').value);
 
-                const res = await fetch(`http://localhost:8080/api/cart/add?productId=${productId}&quantity=${quantity}`, {
+                const res = await fetch(`https://springcart.onrender.com/api/cart/add?productId=${productId}&quantity=${quantity}`, {
                     method: 'POST',
                     credentials: 'include'
                 });
@@ -523,7 +523,7 @@
         const productId = new URLSearchParams(window.location.search).get('id');
 
         try {
-            const response = await fetch(`http://localhost:8080/api/product/${productId}`, {
+            const response = await fetch(`https://springcart.onrender.com/api/product/${productId}`, {
                 method: 'DELETE',
                 credentials: 'include'
             });

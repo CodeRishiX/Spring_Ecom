@@ -113,7 +113,7 @@
                             <img id="userImage" src="" alt="Profile" class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover;">
                             <div class="d-flex flex-column">
                                 <span id="userName" class="fw-bold text-white" style="font-size: 0.9rem;"></span>
-                                <a href="http://localhost:8080/logout" class="text-white-50" style="font-size: 0.8rem; text-decoration: none;">Logout</a>
+                                <a href="https://springcart.onrender.com/logout" class="text-white-50" style="font-size: 0.8rem; text-decoration: none;">Logout</a>
                             </div>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
         const userName = document.getElementById('userName');
 
         // Check login status
-        fetch('http://localhost:8080/api/auth/status', {
+        fetch('https://springcart.onrender.com/api/auth/status', {
             credentials: 'include'
         })
         .then(response => response.json())
@@ -242,7 +242,7 @@
     <!-- Cart Count Script -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('http://localhost:8080/api/cart', { credentials: 'include' })
+        fetch('https://springcart.onrender.com/api/cart', { credentials: 'include' })
             .then(res => {
                 if (!res.ok) return [];
                 return res.json();
@@ -285,7 +285,7 @@
                             col.className = 'col mb-5';
                             col.innerHTML = `
                                 <div class="card h-100">
-                                    <img class="card-img-top" src="http://localhost:8080/api/product/${p.id}/image" alt="${p.name}" onerror="this.src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg'">
+                                    <img class="card-img-top" src="https://springcart.onrender.com/api/product/${p.id}/image" alt="${p.name}" onerror="this.src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg'">
                                     <div class="card-body p-4">
                                         <div class="text-center">
                                             <h5 class="fw-bolder">${p.name}</h5>
@@ -307,7 +307,7 @@
                         productGrid.innerHTML = `<p class="text-center">Failed to load products: ${e.message}</p>`;
                     });
             }
-            fetchNewArrivals('http://localhost:8080/api/New-Arrival?new=true');
+            fetchNewArrivals('https://springcart.onrender.com/api/New-Arrival?new=true');
         });
     </script>
 </body>

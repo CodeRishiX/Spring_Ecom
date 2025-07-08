@@ -97,7 +97,7 @@
     }
 
     // Fetch and render cart items
-    fetch("/api/cart", {
+    fetch("https://springcart.onrender.com/api/cart", {
         credentials: 'include'
     })
         .then(res => res.json())
@@ -116,7 +116,7 @@
                 cartItemsDiv.innerHTML += `
                     <div class="row mb-3">
                         <div class="col-3">
-                            <img src="/api/product/${item.product.id}/image" class="img-fluid" />
+                            <img src="https://springcart.onrender.com/api/product/${item.product.id}/image" class="img-fluid" />
                         </div>
                         <div class="col-6">
                             <h6>${item.product.name}</h6>
@@ -144,7 +144,7 @@
             return;
         }
 
-        fetch(`/api/cart/remove/${productId}`, {
+        fetch(`https://springcart.onrender.com/api/cart/remove/${productId}`, {
             method: "DELETE",
             credentials: "include",
             headers: {
