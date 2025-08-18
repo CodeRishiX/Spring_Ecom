@@ -1,7 +1,7 @@
 # SpringCart - E-commerce Application
 
 ## Overview
-SpringCart is a modern e-commerce web application built with Spring Boot, featuring product management, user authentication via Google OAuth, and a responsive frontend. Deployed on Render, it includes Swagger for API documentation and integrates with a MySQL database hosted on `sql5.freesqldatabase.com`.
+SpringCart is a modern e-commerce web application built with Spring Boot, featuring product management, user authentication via Google OAuth, and a responsive frontend. Deployed on Render, it includes Swagger for API documentation and integrates with a MySQL database hosted on `https://aiven.io/`.
 
 ## Features
 - **Product Management**: View, add, update, and delete products with admin controls.
@@ -22,7 +22,7 @@ SpringCart is a modern e-commerce web application built with Spring Boot, featur
 ## Prerequisites
 - Java 21
 - Maven
-- MySQL (or free tier like `sql5.freesqldatabase.com`)
+- MySQL
 - Git
 - Google Cloud Console (for OAuth setup)
 
@@ -58,15 +58,6 @@ SpringCart is a modern e-commerce web application built with Spring Boot, featur
 - Sign in with Google to access admin features (e.g., add/update products).
 - Use the search bar to filter products.
 
-## Contributing
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature-name`.
-3. Commit changes: `git commit -m "Add feature"`.
-4. Push to the branch: `git push origin feature-name`.
-5. Open a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 - Email: debangshubhattacharya4@gmail.com
